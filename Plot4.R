@@ -11,7 +11,7 @@ SetTime <-strptime(paste(finalData$Date, finalData$Time, sep=" "),"%d/%m/%Y %H:%
 finalData <- cbind(SetTime, finalData)
 
 ##Creating png file
-png(filename='plot1.png', width=480, height=480, units='px')
+png(filename='plot4.png', width=480, height=480, units='px')
 
 ##Generating Plot4
 labels <- c("Sub_metering_1","Sub_metering_2","Sub_metering_3")
